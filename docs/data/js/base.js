@@ -56,3 +56,7 @@ window.addEventListener('load', () => {
         menuBar.classList.toggle('active')
     })
 })
+
+window.addEventListener('load', () => {
+    document.body.style.backgroundImage = `url("/docs/data/img/background.jpg")`
+})
