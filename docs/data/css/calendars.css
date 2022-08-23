@@ -1,3 +1,15 @@
+.reserved {
+    color: #ef1919;
+}
+
+.passed {
+    color: #8d8d8d;
+}
+
+.available {
+    color: #7ec632;
+}
+
 .day {
     background-color: #7ec632;
     font-weight: bold;

@@ -138,7 +138,7 @@ body {
 
     .menu {
         z-index: 2;
-        top: -100vh;
+        top: -500vh;
         width: 100%;
         position: absolute;
         flex-direction: column;

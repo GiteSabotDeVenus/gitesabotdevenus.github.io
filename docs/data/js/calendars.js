@@ -4,7 +4,7 @@ const getReservations = async () => {
     const reservations = {}
     const headers = new Headers()
     headers.set("Cache-Control", "no-cache")
-    const response = await fetch("https://raw.githubusercontent.com/Bidulman/bidultests.github.io/main/reservations", {headers: new Headers()})
+    const response = await fetch("https://raw.githubusercontent.com/GiteSabotDeVenus/data/main/reservations", {headers: new Headers()})
     const data = await response.text()
     for (const line of data.split("\n")) {
         if (line === "") continue
