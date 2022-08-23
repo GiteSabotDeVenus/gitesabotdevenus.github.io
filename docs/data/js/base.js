@@ -36,7 +36,7 @@ const body = `
         <div class="footer-element">
             <h3>Informations</h3>
             Juliette et Jean-Jacques CHAUVET<br>
-            1000 route de rien, 73340 la crochère<br>
+            177 route du Mollard, la Crochère 73340 Aillon-le-Vieux<br>
             gite.lesabotdevenus@gmail.com
         </div>
     </footer>
