@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
     const show = (number) => {
         pictureViewer.innerHTML = ""
         const image = document.createElement("img")
-        image.setAttribute("src", "../data/img/" + pictures[number][0])
+        image.setAttribute("src", "../assets/img/" + pictures[number][0])
         const text = document.createElement("p")
         text.innerHTML = pictures[number][1]
         text.classList.add("text")
