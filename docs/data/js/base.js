@@ -58,5 +58,5 @@ window.addEventListener('load', () => {
 })
 
 window.addEventListener('load', () => {
-    document.body.style.backgroundImage = `url("/docs/data/img/background.jpg")`
+    document.body.style.backgroundImage = `url("https://raw.githubusercontent.com/GiteSabotDeVenus/gitesabotdevenus.github.io/main/docs/data/img/background.jpg")`
 })
