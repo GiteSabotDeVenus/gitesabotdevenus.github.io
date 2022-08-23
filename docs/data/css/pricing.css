@@ -1,0 +1,14 @@
+.pricing-table {
+    padding: 10px;
+    background-color: #c0fff6;
+    border: 1px solid black;
+}
+
+.pricing-table table {
+    width: 100%;
+}
+
+.pricing-table td {
+    border: 1px solid black;
+    padding: 5px;
+}

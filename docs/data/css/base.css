@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'DynaPuff', cursive;
+    color: #7A32C6;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+.top-separator {
+    margin-top: 10px;
+}
+
+.bottom-separator {
+    margin-bottom: 10px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: url("../img/background.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.header {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #7ec632;
+    transition: 0.5s;
+}
+
+.menu-element {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.menu-element:hover {
+    background-color: #C2E59D;
+}
+
+.menu-activator {
+    display: none;
+}
+
+.separator {
+    margin: 30px 0;
+    border-bottom-width: 2px;
+    border-style: solid;
+}
+
+.text-and-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-and-image .text {
+    margin-left: 50px;
+    max-width: 50%;
+}
+
+.page {
+    background-color: #D8FFC0;
+    min-width: 60%;
+    max-width: 60%;
+    padding: 20px;
+    height: min-content;
+    margin: 100px 0;
+    border-radius: 3px;
+    box-shadow: 0 0 7px #424242;
+}
+
+.footer {
+    width: 100%;
+    color: #fff;
+    opacity: 90%;
+    background-color: #23172b;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-element {
+    margin: 15px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.alert {
+    color: #ef1919;
+}
+
+.info {
+    color: #326dc6;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .menu {
+        z-index: 2;
+        top: -100vh;
+        width: 100%;
+        position: absolute;
+        flex-direction: column;
+        list-style: none;
+        background-color: #7ec632;
+    }
+
+    .menu.active {
+        top: 100px;
+    }
+
+    .menu-activator {
+        background-color: #186820;
+        cursor: pointer;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .page {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .footer {
+        justify-content: left;
+    }
+
+    .footer-element {
+        min-width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+
+    .text-and-image .text {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+}

@@ -1,0 +1,31 @@
+.map-container {
+    background-color: #9bce7b;
+    height: max-content;
+}
+
+.map-container.active {
+    width: 100%;
+    height: 500px;
+}
+
+.map-activator {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #D8FFC0;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.map {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map-warning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
