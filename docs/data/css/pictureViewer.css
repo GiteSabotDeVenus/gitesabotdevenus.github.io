@@ -1,0 +1,17 @@
+.next {
+    color: #5b9820;
+}
+
+.previous {
+    color: #ef1919;
+}
+
+.next, .previous {
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.next:hover, .previous:hover {
+    color: #8421cb;
+}

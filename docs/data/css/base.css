@@ -89,7 +89,6 @@ body {
 
 .text-and-image {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .text-and-image .text {
@@ -134,6 +133,10 @@ body {
     color: #326dc6;
 }
 
+img {
+    max-width: 100%;
+}
+
 @media screen and (max-width: 1000px) {
 
     .menu {
@@ -176,6 +179,10 @@ body {
 }
 
 @media screen and (max-width: 1500px) {
+
+    .text-and-image {
+        flex-direction: column;
+    }
 
     .text-and-image .text {
         max-width: 100%;

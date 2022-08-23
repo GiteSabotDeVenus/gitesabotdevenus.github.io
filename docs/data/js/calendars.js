@@ -3,7 +3,7 @@ const monthsNames = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Jui
 const getReservations = async () => {
     const reservations = {}
     const headers = new Headers()
-    headers.set("Cache-Control", "no-cache")
+    headers.set("Cache-Control", "no-cache, no-store, must-revalidate")
     const response = await fetch("https://raw.githubusercontent.com/GiteSabotDeVenus/data/main/reservations", {headers: new Headers()})
     const data = await response.text()
     for (const line of data.split("\n")) {
