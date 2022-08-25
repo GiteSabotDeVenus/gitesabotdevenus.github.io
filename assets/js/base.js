@@ -23,10 +23,9 @@ const body = `
         </div>
         <div class="footer-element">
             <h3>Partager</h3>
-            > Facebook<br>
-            > Instagram<br>
-            > Twitter<br>
-            > Mail
+            > <a href="http://www.facebook.com/sharer.php?u=https://www.gitesabotdevenus.fr/&t=G%C3%AEte%20le%20Sabot%20de%20V%C3%A9nus">Facebook</a><br>
+            > <a href="https://twitter.com/intent/tweet?url=https://www.gitesabotdevenus.fr/&text=G%C3%AEte%20le%20Sabot%20de%20V%C3%A9nus">Twitter</a><br>
+            > <a href="mailto:?subject=G%C3%AEte%20le%20Sabot%20de%20V%C3%A9nus&body=https://www.gitesabotdevenus.fr/">Mail</a>
         </div>
         <div class="footer-element">
             <h3>Liens utiles</h3>
