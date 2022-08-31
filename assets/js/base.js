@@ -36,7 +36,7 @@ const body = `
             <h3>Informations</h3>
             Juliette et Jean-Jacques CHAUVET<br>
             177 route du Mollard, la Crochère 73340 Aillon-le-Vieux<br>
-            gite.lesabotdevenus@gmail.com
+            contact@gitesabotdevenus.fr
         </div>
     </footer>
 `
