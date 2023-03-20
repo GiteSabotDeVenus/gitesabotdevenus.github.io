@@ -12,7 +12,6 @@ const pictures = [
     ["margeriaz.jpg", "<h4>Margeriaz</h4>Vue de Aillons Margeriaz 1400.<br>Domaine skiable à environ 10 kms du gîte.<br>Ski de piste, ski de fond, raquettes, ballade en chiens de traineaux, repas à la Bergerie accessible en raquettes...<br>Photo prise depuis le balcon du gîte."],
     ["colombier-bade-cows.jpg", "<h4>Colombier, la bade et les vaches</h4>Première neige sur le Colombier et la Bade.<br>Le troupeau de vaches profite encore des belles journées d'automne.<br>Photo prise depuis le balcon du gîte."],
     ["calves.jpg", "<h4>Les veaux</h4>Des veaux viennent brouter à côté du gîte.<br>Quelle charmante compagnie et quel joyeux tintement de clochettes."],
-    ["noisette.jpg", "<h4>Noisette</h4>Noisette, la mascotte du village."],
     ["roes.jpg", "<h4>Les chevreuils</h4>Durant l'hiver, les chevreuils viennent chercher de l'herbe à côté du gîte.<br>Quel merveilleux spectacle."],
     ["snow-sun.jpg", "<h4>Colombier, la neige et le soleil</h4>Quel beau paysage d'hiver : neige et soleil.<br>Avec le Colombier qui se détache dans le ciel bleu."],
     ["crochere.jpg", "<h4>La Crochère et Colombier</h4>Photo prise depuis la sortie du village de Aillon le Jeune. Nous apercevons aussi le hameau de La Crochère."],
